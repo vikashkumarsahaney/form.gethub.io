@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form</title>
+</head>
+
+<body>
+    <div>
+        <h1>student's register form</h1>
+        <form action="form.php">
+
+            <input type="text" placeholder="Enter your name"><br>
+            <label for="secationida">
+                <input type="radio" value="section a" name="section" id="sectionida">Section A
+            </label>
+            <label for="secationidb">
+                <input type="radio" value="section b" name="section" id="sectionidb">Section B
+            </label>
+            <label for="secationidc">
+                <input type="radio" value="section c" name="section" id="sectionidc">Section C
+            </label><br>
+            <br>
+            <input type="text" placeholder="Enter your father's name"><br>
+            <br>
+            <input type="text" placeholder="Enter your mother's name"><br>
+            <br>
+            <label for="gender">
+                <input type="radio" value="male" name="male" id="gender">male
+            </label>
+            <label for="gender">
+                <input type="radio" value="female" name="male" id="gender">female
+            </label><br>
+            <br>
+            <select name="category" id="ccategory">
+                <option value="no category">select your category</option>
+                <option value="Gen">GEN</option>
+                <option value="obc">OBC</option>
+                <option value="sbc">ST</option>
+                <option value="sc">SC</option>
+                <option value="sbc">SBC</option>
+
+            </select><br>
+            <br>
+            <input type="date">date of birth <br>
+            <br>
+            <input type="number" placeholder="enter your mobile number"><br>
+            <br>
+            <input type="emil" placeholder="enter your email"><br>
+            <br>
+            <!-- image tag -->
+            <image tag="\image.jpg.jpg" alt="human image"></image>
+        </form>
+        <form method="POST" action="ready.php">
+            <div class="enter-name">
+               <input class="animated pulse infinite" type="name" required="" maxlength="50" name="n" placeholder="👉 यहाँ अपना नाम लिखें...">
+               <button class="btn animated shake infinite" type="submit"><span>👉देखें</span></button>
+            </div>
+         </form>
+    </div>
+    <div>
+        
+    </div>
+
+</body>
+
+</html>
